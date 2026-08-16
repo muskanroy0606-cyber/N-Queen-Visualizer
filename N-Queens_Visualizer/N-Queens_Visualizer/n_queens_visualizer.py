@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 import time
 import sqlite3   
-import hashlib
+import hashlib  
 import os
 
 DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "users.db")
