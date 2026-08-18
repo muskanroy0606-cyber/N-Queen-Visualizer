@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 import sqlite3
 import os  
-
+ 
 # Get path to database relative to this script
 DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "users.db")
 
